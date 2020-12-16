@@ -18,7 +18,7 @@ const axios = require('axios')
 //     })
 // }
 const forecast = (latitude, longitude, callback) => {
-    const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=a83b689ca9c96ff1e0264a5919b7da0f`
+    const url = `https://api.openweathermap.org/data/2.5/weather?lang=fr&lat=${latitude}&lon=${longitude}&appid=a83b689ca9c96ff1e0264a5919b7da0f`
 
     axios
         .get(url)
