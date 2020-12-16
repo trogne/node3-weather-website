@@ -1,0 +1,23 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e js,hbs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "connect-livereload": "^0.6.1",
+    "express": "^4.16.4",
+    "hbs": "^4.0.1",
+    "livereload": "^0.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.2.0"
+  }
+}
